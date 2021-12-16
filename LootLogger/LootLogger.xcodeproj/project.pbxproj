@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1E8EBE22769C23C001C0CAB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8EBE12769C23C001C0CAB /* DetailViewController.swift */; };
+		A1E8EBE42769F360001C0CAB /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8EBE32769F360001C0CAB /* ImageStore.swift */; };
 		A1F526AF276842DA00865945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F526AE276842DA00865945 /* AppDelegate.swift */; };
 		A1F526B1276842DA00865945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F526B0276842DA00865945 /* SceneDelegate.swift */; };
 		A1F526B6276842DA00865945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F526B4276842DA00865945 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		A1E8EBE12769C23C001C0CAB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1E8EBE32769F360001C0CAB /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		A1F526AB276842DA00865945 /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F526AE276842DA00865945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F526B0276842DA00865945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				A1F526E8276878C300865945 /* ItemStore.swift */,
+				A1E8EBE32769F360001C0CAB /* ImageStore.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				A1F526E62768729100865945 /* Item.swift in Sources */,
 				A1F526E3276846B100865945 /* ItemCell.swift in Sources */,
 				A1F526E9276878C300865945 /* ItemStore.swift in Sources */,
+				A1E8EBE42769F360001C0CAB /* ImageStore.swift in Sources */,
 				A1F526AF276842DA00865945 /* AppDelegate.swift in Sources */,
 				A1F526E02768437600865945 /* ItemsViewController.swift in Sources */,
 				A1F526B1276842DA00865945 /* SceneDelegate.swift in Sources */,
